@@ -4,8 +4,13 @@ This project was created for demo purposes only, to introduce SQL concepts to Mo
 
 # Setup
 
-`bundle install`
-`rails db: create && rails db:migrate && rails db:seed`
+```
+bundle install
+```
+
+```
+rails db: create && rails db:migrate && rails db:seed
+```
 
 # Let's learn some SQL!
 
