@@ -44,6 +44,7 @@ Now let's look at more than one table.
 ## Helpful References
 
 [Visual Representation of SQL Joins](https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins)
+[SQL Functions](https://www.w3schools.com/sql/sql_count_avg_sum.asp)
 
 
 
