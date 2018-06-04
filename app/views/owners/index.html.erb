@@ -1,0 +1,22 @@
+<table class="ui single line table">
+  <thead>
+    <tr>
+      <th>Prefix</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Profession</th>
+      <th>Number of Dogs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @owners.each do |owner| %>
+      <tr>
+        <td><%= owner.prefix %></td>
+        <td><%= owner.first_name %></td>
+        <td><%= owner.last_name %></td>
+        <td><%= owner.profession %></td>
+        <td><%= owner.dogs.count %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
