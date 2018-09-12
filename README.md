@@ -1,6 +1,6 @@
 # Overview
 
-This project was created for demo purposes only, to introduce SQL concepts to Momentum Learning Cohort 1's back-end class.
+This project was created for demo purposes only, to introduce SQL concepts to Momentum Learning's back-end class.
 
 # Setup
 
@@ -9,7 +9,7 @@ bundle install
 ```
 
 ```
-rails db: create && rails db:migrate && rails db:seed
+rails db:create && rails db:migrate && rails db:seed
 ```
 
 # Let's learn some SQL!
@@ -46,9 +46,3 @@ Now let's look at more than one table.
 * [Visual Representation of SQL Joins](https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins)
 * [SQL Functions](https://www.w3schools.com/sql/sql_count_avg_sum.asp)
 * [N+1 Queries](https://semaphoreci.com/blog/2017/08/09/faster-rails-eliminating-n-plus-one-queries.html)
-
-
-
-
-
-
